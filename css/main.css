@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+	font-family: 'Merriweather', serif;
+	margin: 0;
+	padding: 0;
+	/* display: grid; */
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0.75rem, 0;
+}
+
+/* ++ Utility Classes */
+
+.text-primary {
+	color: rgba(102, 191, 0, 1);
+}
+
+.bg-light {
+	background: white;
+	color: #1d1e23;
+}
+
+.bg-dark {
+	background: #1d1e23;
+	color: white;
+}
+
+.bg-primary{
+    color: white;
+    background: rgba(102, 191, 0, 1);
+}
+
+.l-heading {
+	font-size: 3rem;
+	margin-bottom: .55rem;
+	line-height: .9;
+}
+
+.m-heading {
+	font-size: 2rem;
+	margin-bottom: .55rem;
+	line-height: .9;
+}
+
+.lead {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+.mgy-1 {
+	margin: 1.5rem 0;
+}
+.mgy-2 {
+	margin: 2rem 0;
+}
+.mgy-3 {
+	margin: 3rem 0;
+}
+.mgy-4 {
+	margin: 4rem 0;
+}
+
+
+
+.mg-1 {
+	margin: 1.5rem;
+}
+.mg-2 {
+	margin: 2rem;
+}
+.mg-3 {
+	margin: 3rem;
+}
+.mg-4 {
+	margin: 4rem;
+}
+
+.mg-top-1 {
+	margin-top: 1.5rem;
+}
+.mg-top-2 {
+	margin-top: 2rem;
+}
+.mg-top-3 {
+	margin-top: 3rem;
+}
+.mg-top-4 {
+	margin-top: 4rem;
+}
+
+
+
+.py-half {
+	padding: 1rem 0;
+}
+.py-1 {
+	padding: 1.5rem 0;
+}
+.py-2 {
+	padding: 2rem 0;
+}
+.py-3 {
+	padding: 3rem 0;
+}
+.py-4 {
+	padding: 4rem 0;
+}
+
+.p-1 {
+	padding: 1.5rem;
+}
+.p-2 {
+	padding: 2rem;
+}
+.p-3 {
+	padding: 3rem;
+}
+.p-4 {
+	padding: 4rem;
+}
+
+.btn {
+	display: inline-block;
+	padding: .5rem 2rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn-primary{
+    color: white;
+    background: rgba(102, 191, 0, 1);
+}
+.btn-primary:hover {
+	background: rgb(133, 205, 51);
+}
+
+.btn-dark {
+	color: white;
+	background: #1d1e23;
+}
+
+.btn-dark:hover{
+    background: rgb(133, 205, 51);
+}
+
+.btn-neutral{
+    color: rgb(156, 227, 227);
+    background: rgb(84, 84, 84);
+    font-size: medium;
+}
+.btn-neutral:hover{
+    color: rgb(84, 84, 84);
+    background:rgb(156, 227, 227);
+}
+
+.list{
+    margin: .5rem 0;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* ++ Nav Bar */
+#navbar {
+	display: flex;
+    position: fixed;
+    width: 100%;
+	top: 0;
+	background: #1d1e23;
+	/* linear-gradient(-247.0147700394142deg, rgba(12, 20, 2,1) 38.92261904761905%,rgba(12, 20, 2,1) 39.02728174603175%,rgba(22, 41, 1,1) 55.0406746031746%,rgba(32, 59, 1,1) 64.04166666666667%,rgba(45, 84, 0,1) 78.58978174603175%,rgba(57, 105, 2,1) 87.06746031746032%,rgba(57, 105, 2,1) 89.16071428571429%); */
+	color: white;
+	justify-content: space-between;
+	z-index: 1;
+    padding: 1rem;
+    transition-duration: 500ms;
+}
+
+#navbar ul {
+	display: flex;
+	align-items: center;
+    list-style: none;
+    margin-right: 3rem;
+}
+
+#navbar ul li a {
+	color: white;
+	padding: 0.75rem;
+	margin: 0, 0.25rem;
+}
+#navbar ul li a:hover {
+	background: rgba(107, 194, 14, 0.639);
+	border-radius: 5px;
+}
