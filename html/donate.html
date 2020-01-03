@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Donation Form</title>
+
+    <link rel="stylesheet" href="../css/main.css">
 </head>
-<body>
-    
+
+<body class="bg-light-gray form-bg">
+    <nav id="navbar" class=" non-fixed">
+        <h1 class="logo pl-15">
+            <span class="text-primary">
+                <img class="logo-no-words" src="../assets/logo/clarityForCharity-no-letter.png" alt="">
+                Clarity</span> For Charity
+        </h1>
+    </nav>
+
+    <div class="form-container">
+        <div class="form-border bg-gentle-gray non-fixed">
+            <div class="form-statement">
+                <h1 class='txtBd-100'> <span class="text-primary txtBd-bolder"> Be </span> The Movement</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ipsum itaque. Vitae officia, beatae
+                    nisi deleniti architecto deserunt maiores velit modi voluptate dolorem mollitia, nostrum optio
+                    consectetur explicabo, est exercitationem?
+                </p>
+            </div>
+            <section class="ammount form-section ">
+                <h2 class="text-dark-blue">Ammount</h2>
+                <input class="border-rad-30" type="number" placeholder="USD">
+            </section>
+            <section class="contributor form-section form-group">
+                <h2 class="text-dark-blue">Contributor</h2>
+                <h5>
+                    Country
+                </h5>
+                <select name="country" class="country-select border-rad-40"></select>
+
+                <div class="form-name">
+                    <div>
+                        <label class="font-14" for="fName">First Name</label>
+                        <input type="text" name="fName">
+                    </div>
+                    <div>
+                        <label class="font-14" for="lName">Last Name</label>
+                        <input type="text" name="lName">
+                    </div>
+                </div>
+
+                <div class="form-address">
+                    <label class="font-14" for="Address">Address</label>
+                    <input type="text" name="address1">
+                </div>
+
+                <div class="form-city">
+                    <div>
+                        <label class="font-14" for="city">City</label>
+                    </div>
+                    <input type="text" name="city">
+                </div>
+                <div class="form-state">
+                    <div>
+                        <label class="font-14" for="state">State/Region/Province</label>
+                    </div>
+                    <input type="text" name="state">
+                </div>
+                <div class="form-zip">
+                    <div>
+                        <label class="font-14" for="zip">Zip-Code</label>
+                    </div>
+                    <input type="text" name="zip">
+                </div>
+                <div class="form-email">
+                    <div>
+                        <label class="font-14" for="email">Email</label>
+                    </div>
+                    <input type="text" name="email">
+                </div>
+            </section>
+            <section class="card-number form-section">
+                <h2 class="text-dark-blue">Card Number</h2>
+                <div class="column">
+
+                    <input type="text" name="cardNumber" placeholder='card number'>
+                </div>
+                <div class="column">
+                    <p>Security Code (CVV)</p>
+                    <input type="text" name="securityNumber" placeholder='CVV Number'>
+                </div>
+                <div>
+                    <p>Expiration Date</p>
+                    <div class="exp-date">
+                        <select name="month" id="">
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                        <select name="year" id="">
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </section>
+
+            <div class="py-1">
+                <a class="btn btn-orange" href="./pending.html">Submit</a>
+            </div>
+
+            <section class="disclaimer py-2 form-section ">
+                <p class="font-13">
+                    If you experience any issues processing your donation, please contact Customer Service at
+                    1-800-###-####
+                </p>
+                <p class="font-13">
+                    When you make a gift to Clarity For Charity USA, you’ll join us in our mission to fight for the survival and
+                    development of all of us. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil nam quaerat omnis iure delectus.
+                </p>
+                <p class="font-13">
+                    *Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit error dolorem accusantium rerum eveniet, sapiente dolor, culpa quia reiciendis totam similique possimus. Quas, nulla eum.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, consectetur!
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
