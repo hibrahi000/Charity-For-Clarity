@@ -99,6 +99,16 @@ a {
     background: #7ab436;
 }
 
+.btn-orange{
+	color: #fff;
+	background: #D25827;
+	font-size: medium;
+}
+.btn-orange:hover{
+	color: #fff;
+	background: rgb(241, 143, 103);
+}
+
 .btn-dark {
     background: #333;
     color: #fff;
