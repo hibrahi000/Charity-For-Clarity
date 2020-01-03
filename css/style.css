@@ -41,7 +41,7 @@ p {
 }
 
 .text-primary {
-    color: rgba(102, 191, 0, 1);
+    color: blue;
 }
 
 .lead {
@@ -206,6 +206,7 @@ h1 {
 /*Contact Form Section*/
 #contact-form .form-group {
     margin-bottom: 20px;
+    background-color: blue;
 }
 
 #contact-form label {
