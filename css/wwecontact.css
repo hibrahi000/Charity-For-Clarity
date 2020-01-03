@@ -55,17 +55,11 @@ p {
   color: #50A8DD;
 }
 
-<<<<<<< HEAD:css/style.css
-.bg-light {
-  background: #C1C1C1;
-  color: #333;
-=======
 /*Navbar*/
 #navbar {
     /*background: #333 url('../assests/img/showcase.jpeg') no-repeat center center/cover;*/
     color: #fff;
     overflow: auto;
->>>>>>> Anna:css/wwecontact.css
 }
 
 .bg-dark {
@@ -116,35 +110,6 @@ p {
 	margin-top: 4rem;
 }
 
-<<<<<<< HEAD:css/style.css
-.py-half {
-	padding: 1rem 0;
-}
-.py-1 {
-	padding: 1.5rem 0;
-}
-.py-2 {
-	padding: 2rem 0;
-}
-.py-3 {
-	padding: 3rem 0;
-}
-.py-4 {
-	padding: 4rem 0;
-}
-
-.p-1 {
-	padding: 1.5rem;
-}
-.p-2 {
-	padding: 2rem;
-}
-.p-3 {
-	padding: 3rem;
-}
-.p-4 {
-	padding: 4rem;
-=======
 /*Navr*/
 #showcase{
   /* background: url('../assests/img/showcase.jpeg') no-repeat center center/cover;*/
@@ -154,7 +119,6 @@ p {
 #showcase .showcase-content {
    /* background: url('../assests/img/showcase.jpeg') no-repeat center center/cover;*/
     width: 100; 
->>>>>>> Anna:css/wwecontact.css
 }
 
 .pl-1 {
