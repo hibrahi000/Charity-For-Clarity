@@ -1,8 +1,9 @@
 /* Reset */
 * {
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
 }
 
 /* Main Styling */
@@ -54,9 +55,17 @@ p {
   color: #50A8DD;
 }
 
+<<<<<<< HEAD:css/style.css
 .bg-light {
   background: #C1C1C1;
   color: #333;
+=======
+/*Navbar*/
+#navbar {
+    /*background: #333 url('../assests/img/showcase.jpeg') no-repeat center center/cover;*/
+    color: #fff;
+    overflow: auto;
+>>>>>>> Anna:css/wwecontact.css
 }
 
 .bg-dark {
@@ -107,6 +116,7 @@ p {
 	margin-top: 4rem;
 }
 
+<<<<<<< HEAD:css/style.css
 .py-half {
 	padding: 1rem 0;
 }
@@ -134,6 +144,17 @@ p {
 }
 .p-4 {
 	padding: 4rem;
+=======
+/*Navr*/
+#showcase{
+  /* background: url('../assests/img/showcase.jpeg') no-repeat center center/cover;*/
+    height: 600px;
+}
+
+#showcase .showcase-content {
+   /* background: url('../assests/img/showcase.jpeg') no-repeat center center/cover;*/
+    width: 100; 
+>>>>>>> Anna:css/wwecontact.css
 }
 
 .pl-1 {
